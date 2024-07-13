@@ -41,7 +41,7 @@ const AddProduct = () => {
     }
 
     axios
-      .post("http://localhost:8080/api/addproduct", product, {
+      .post("https://my-spring-boot-app-ip4fjkueaa-uc.a.run.app/api/addproduct", product, {
         headers: {
           "Content-Type": "application/json",
         },
